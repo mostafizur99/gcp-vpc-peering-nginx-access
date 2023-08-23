@@ -37,6 +37,14 @@ Explore hands-on VPC network peering within Google Cloud Platform (GCP). We'll c
 <img src="./assets/vpc/vpc2-4.png" alt="vpc1-4"/>
 </details>
 
+Now we can see the `vpc-1` and `vpc-2` are in the list.
+
+<figure > 
+<p align="center">
+  <img src="./assets/vpc/vpcs-total.png" alt="vpcs-total" style="background-color:white" />
+</p>
+</figure>
+
 ### _Create Two VMs_:
 
 <details>
@@ -57,6 +65,13 @@ Explore hands-on VPC network peering within Google Cloud Platform (GCP). We'll c
 <img src="./assets/vm/vm2-5.png" alt="vm2-5"/>
 </details>
 
+Now we can see the `vm-1` and `vm-2` list.
+
+<figure > 
+<p align="center">
+  <img src="./assets/vm/vms-total.png" alt="vms-total" style="background-color:white" />
+</p>
+
 ### _Peering Two VPC_:
 
 <details>
@@ -68,6 +83,13 @@ Explore hands-on VPC network peering within Google Cloud Platform (GCP). We'll c
 <summary>Peering <code>vpc-2</code> to <code>vpc-1</code></summary><br/>
 <img src="./assets/peer/peer2.png" alt="peer-2"/>
 </details>
+
+Now we can see the two active network peering.
+
+<figure > 
+<p align="center">
+  <img src="./assets/peer/peer-active.png" alt="vms-total" style="background-color:white" />
+</p>
 
 ### _Check Connection_:
 

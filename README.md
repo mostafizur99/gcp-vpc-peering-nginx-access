@@ -1,10 +1,10 @@
-## Google Cloud VPC Network Peering to Connect Two VMs and Check Nginx Server Access.
+# Google Cloud VPC Network Peering to Connect Two VMs and Check Nginx Server Access.
 
-### Description
+## Description
 
 Explore hands-on VPC network peering within Google Cloud Platform (GCP). We'll create separate VPCs in different regions, set up VMs in each VPC, and deploy an Nginx server. Witness the practical dynamics of VPC network peering as these elements interact, gaining real-world insights into this powerful GCP feature.
 
-### Overview Diagram
+## Overview Diagram
 
 <figure > 
 <p align="center">
@@ -12,12 +12,14 @@ Explore hands-on VPC network peering within Google Cloud Platform (GCP). We'll c
 </p>
 </figure>
 
-### Prerequisites
+## Prerequisites
 
 - Google Cloud Platform(GCP) account or playground.
 - Knowledge about VPC, VM instance, Subnet, Network interface.
 
-### Step-1: Create Two VPCs:
+## Hands On:
+
+### _Create Two VPCs_:
 
 <details>
 <summary>Creating <code>vpc-1</code></summary><br/>
@@ -35,7 +37,7 @@ Explore hands-on VPC network peering within Google Cloud Platform (GCP). We'll c
 <img src="./assets/vpc/vpc2-4.png" alt="vpc1-4"/>
 </details>
 
-### Step-2: Create Two VMs:
+### _Create Two VMs_:
 
 <details>
 <summary>Creating <code>vm-1</code></summary><br/>
@@ -55,7 +57,7 @@ Explore hands-on VPC network peering within Google Cloud Platform (GCP). We'll c
 <img src="./assets/vm/vm2-5.png" alt="vm2-5"/>
 </details>
 
-### Step-3: Peering Two VPC:
+### _Peering Two VPC_:
 
 <details>
 <summary>Peering <code>vpc-1</code> to <code>vpc-2</code></summary><br/>
@@ -67,7 +69,7 @@ Explore hands-on VPC network peering within Google Cloud Platform (GCP). We'll c
 <img src="./assets/peer/peer2.png" alt="peer-2"/>
 </details>
 
-### Step-4: Check Connection:
+### _Check Connection_:
 
 Now if we try to connect from `vm-1` to the `vm-2`, it will be connected now.
 
@@ -76,7 +78,7 @@ Now if we try to connect from `vm-1` to the `vm-2`, it will be connected now.
 <img src="./assets/peer/check-connection.png" alt="check-vpc-connection"/>
 </details>
 
-### Step-5: Create Nginx at One VM And Access From Others:
+### _Create Nginx at One VM And Access From Others_:
 
 Here we will install nginx at `vm-1` and will try to access from `vm-2`.
 

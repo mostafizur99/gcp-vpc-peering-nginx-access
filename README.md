@@ -66,3 +66,12 @@ Explore hands-on VPC network peering within Google Cloud Platform (GCP). We'll c
 <summary>Peering <code>vpc-2</code> to <code>vpc-1</code></summary><br/>
 <img src="./assets/peer/peer2.png" alt="peer-2"/>
 </details>
+
+### Step-4: Check Connection:
+
+Now if we try to connect from vm-1 to the vm-2, it will be connected now.
+
+<details>
+<summary>Ping from <code>vpc-1</code> to <code>vpc-2</code></summary><br/>
+<img src="./assets/peer/check-connection.png" alt="peer-1"/>
+</details>

@@ -69,9 +69,55 @@ Explore hands-on VPC network peering within Google Cloud Platform (GCP). We'll c
 
 ### Step-4: Check Connection:
 
-Now if we try to connect from vm-1 to the vm-2, it will be connected now.
+Now if we try to connect from `vm-1` to the `vm-2`, it will be connected now.
 
 <details>
 <summary>Ping from <code>vpc-1</code> to <code>vpc-2</code></summary><br/>
-<img src="./assets/peer/check-connection.png" alt="peer-1"/>
+<img src="./assets/peer/check-connection.png" alt="check-vpc-connection"/>
 </details>
+
+### Step-5: Create Nginx at One VM And Access From Others:
+
+Here we will install nginx at `vm-1` and will try to access from `vm-2`.
+
+- At vm-1 terminal, use the following command.
+
+  To update app:
+
+  ```bash
+  sudo apt update -y
+  ```
+
+  To install nginx:
+
+  ```bash
+  sudo apt install nginx
+  ```
+
+  To check nginx service status::
+
+  ```bash
+  systemctl status nginx
+  ```
+
+  We will get the output like:
+
+<figure > 
+<p align="center">
+  <img src="./assets//nginx/nginx-status.png" alt="nginx-status" style="background-color:white" />
+</p>
+</figure>
+
+- Now we will try to access from `vm-2` terminal:
+
+  ```bash
+  curl http://34.75.68.89
+  ```
+
+  We will get the output like:
+
+<figure > 
+<p align="center">
+  <img src="./assets//nginx/nginx-response.png" alt="nginx-response" style="background-color:white" />
+</p>
+</figure>

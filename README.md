@@ -35,7 +35,7 @@ Explore hands-on VPC network peering within Google Cloud Platform (GCP). We'll c
 <img src="./assets/vpc/vpc2-4.png" alt="vpc1-4"/>
 </details>
 
-### Step-2: Create Two VMs::
+### Step-2: Create Two VMs:
 
 <details>
 <summary>Creating <code>vm-1</code></summary><br/>
@@ -53,4 +53,16 @@ Explore hands-on VPC network peering within Google Cloud Platform (GCP). We'll c
 <img src="./assets/vm/vm2-3.png" alt="vm2-3"/>
 <img src="./assets/vm/vm2-4.png" alt="vm2-4"/>
 <img src="./assets/vm/vm2-5.png" alt="vm2-5"/>
+</details>
+
+### Step-3: Peering Two VPC:
+
+<details>
+<summary>Peering <code>vpc-1</code> to <code>vpc-2</code></summary><br/>
+<img src="./assets/peer/peer1.png" alt="peer-1"/>
+</details>
+
+<details>
+<summary>Peering <code>vpc-2</code> to <code>vpc-1</code></summary><br/>
+<img src="./assets/peer/peer2.png" alt="peer-2"/>
 </details>

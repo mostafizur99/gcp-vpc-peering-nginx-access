@@ -104,7 +104,7 @@ Now if we try to connect from `vm-1` to the `vm-2`, it will be connected now.
 
 Here we will install nginx at `vm-1` and will try to access from `vm-2`.
 
-- At vm-1 terminal, use the following command.
+- At `vm-1` terminal, use the following command.
 
   To update app:
 
@@ -145,3 +145,5 @@ Here we will install nginx at `vm-1` and will try to access from `vm-2`.
   <img src="./assets//nginx/nginx-response.png" alt="nginx-response" style="background-color:white" />
 </p>
 </figure>
+
+And Finally we have got the nginx server response from `vm-1` to `vm-2`.

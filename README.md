@@ -2,7 +2,7 @@
 
 ## Description
 
-Explore hands-on VPC network peering within Google Cloud Platform (GCP). We'll create separate VPCs in different regions, set up VMs in each VPC, and deploy an Nginx server. Witness the practical dynamics of VPC network peering as these elements interact, gaining real-world insights into this powerful GCP feature.
+Explore hands-on VPC network peering within Google Cloud Platform (GCP). We'll create separate VPCs in different regions, set up VMs in each VPC, and deploy an Nginx server. And then, we will establish a connection between two VMs using VPC network peering.
 
 ## Overview Diagram
 
